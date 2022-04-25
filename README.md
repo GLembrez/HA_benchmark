@@ -14,8 +14,13 @@ Cyber-physical systems are systems in which software elements are in control of 
 
 ## How to use the benchmark
 
-1. Place the post_processing\postprocessing.m script in the same folder as the automata. The automaton of a simple thermostat is available in automata\example.
+1. Place the post_processing\postprocessing.m script in the same folder as the automata. The automaton of a simple thermostat is available in automata\example. 
+ 
+![demarche_identif](img/example_automaton.png)
+
 2. Open the automata.slx and execute the simulation (f5) a data.mat file will be created.
-3. Execute postporcessing.m, this will create a .json file containing the evolution of the automaton variables as well as plot the timeseries. 
+3. Execute postporcessing.m, this will create a .json file containing the evolution of the automaton variables as well as plot the timeseries. In the case of the temperature example, the evolution of T should look like : 
+
+![demarche_identif](img/temperature_post.png)
 
 For more details about step 3, please visit the post_processing folder.
